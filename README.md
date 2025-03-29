@@ -17,4 +17,11 @@ Technical hiring can be time-consuming and subjective. Our AI Interview Assistan
 - 🔹 **Python & Streamlit** – Intuitive web-based interface.  
 - 🔹 **scikit-learn, NLTK, TF-IDF** – Machine Learning & Natural Language Processing.  
 - 🔹 **PyPDF2** – Resume parsing and text extraction.  
-- 🔹 **matplotlib & plotly** – Data visualization for hiring insights.  
+- 🔹 **matplotlib & plotly** – Data visualization for hiring insights.
+
+- ## 🏗️ Data & Model Storage  
+
+- 📂 **Pre-trained Models** – All required machine learning models are stored in the `models/` directory.  
+- 📂 **Database** – The system uses two main data sources:  
+  - 📄 **Uploaded Resume** – Processed using NLP techniques to extract relevant skills and experience.  
+  - 📊 **Interview Questions Dataset** – A structured DataFrame containing categorized technical and behavioral questions.  
